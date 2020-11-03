@@ -1,0 +1,143 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing:border-box;
+}
+
+body{
+ background-color: white;
+}
+
+p{
+  font-family: "Raleway";
+}
+
+.freccia{
+  position: fixed;
+  padding-top:280px;
+}
+
+.freccia a{
+  opacity: 30%;
+}
+
+.freccia a:hover{
+  opacity: 100%;
+}
+
+.name{
+  text-align: center;
+  color: white;
+  font-family: 'Londrina Solid', cursive;
+  background-color: #FDD017;
+}
+
+.name h1{
+  font-size: 300px;
+}
+
+.photo{
+  padding-top: 10px;
+  padding-bottom: 30px;
+  display:flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  background-color: #FDD017;
+}
+
+#photo1, #photo2, #photo3{
+  margin: 0 5px;
+}
+
+.presentazione{
+  padding: 100px 20px 50px 200px;
+  display: flex;
+  flex-direction: row;
+}
+
+.me {
+  padding-left: 50px;
+  width: 50%;
+}
+
+.me a{
+  color: black;
+}
+
+.me a:hover{
+  text-decoration: underline;
+  color: green ;
+}
+
+.pola{
+  padding-top: 50px;
+}
+
+.faccio{
+  margin: 0px;
+  background-color: white;
+  width: 100%;
+  padding: 100px 200px 50px 200px;
+  display: flex;
+}
+.faccio li{
+  font-family: "Raleway";
+}
+
+.faccio h1{
+  font-family: 'Londrina Solid';
+  padding-bottom: 20px;
+}
+
+.uno a{
+  color: black;
+}
+
+.uno a:hover{
+  color: #67CF71;
+  text-decoration: underline;
+}
+
+.fotone{
+  padding-right: 40px;
+}
+
+.due{
+  text-align: right;
+  padding-right: 30px;
+  padding-left: 80px;
+}
+
+.due a{
+  color: black;
+}
+
+.due a:hover{
+  color: #60D29C;
+  text-decoration: underline;
+}
+
+.contattami {
+  background-color: #FDD017;
+
+}
+.contattami h1{
+  padding: 30px 0px 20px 150px;
+  font-family: 'Londrina Solid'
+}
+.contattami p{
+  width: 30%;
+  margin-left: 150px;
+
+}
+
+.social{
+  padding-bottom: 80px;
+  text-align: right;
+  margin-right: 300px;
+  }
+
+.social a:hover{
+  opacity: 40%;
+}
